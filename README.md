@@ -36,7 +36,7 @@ This service describes a thermostat.
    * Allowed values: `from 0 to 3`: NACTIVE = 0; IDLE = 1; HEATING = 2; COOLING = 3;
 * `thermostatMode` :
   * Allowed values: `HEAT` & `COOL` & `HEAT_COOL` & `HEAT_COOL_AUTO`
-  ** for `HEAT` - "TargetHeatingCoolingState":{"validValues":[0,1]}
+  * for example, for `HEAT` - "TargetHeatingCoolingState":{"validValues":[0,1]}
   
 * `tempUnit` *(optional)*: Gives the measurement unit of the thermostat, currently does not change anything inside HomeKit
   * Default: `Celsius`
