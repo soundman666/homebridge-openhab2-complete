@@ -7,13 +7,14 @@ This service describes a thermostat.
     "type": "thermostat",
     "currentTempItem": "Itemname-within-OpenHAB",
     "targetTempItem": "Itemname-within-OpenHAB",
+    "targetCoolingThresholdItem": "Itemname-within-OpenHAB",
+    "targetHeatingThresholdItem": "Itemname-within-OpenHAB",
     "currentHumidityItem": "Itemname-within-OpenHAB",
     "targetHumidityItem": "Itemname-within-OpenHAB",
     "TargetHeatingCoolingStategItem": "Itemname-within-OpenHAB",
     "CurrentHeatingCoolingStateItem": "Itemname-within-OpenHAB",
-    "CoolingThresholdTemperatureItem": "Itemname-within-OpenHAB",
-    "HeatingThresholdTemperatureItem": "Itemname-within-OpenHAB",
-    "tempUnit": "Celsius"
+    "tempUnit": "Celsius",
+    "thermostatMode": "HEAT_COOL_AUTO"
 }
 ```
 * `currentTempItem`: The openHAB item representing the current temperature as measured by the thermostat
