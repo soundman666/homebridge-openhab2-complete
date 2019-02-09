@@ -11,8 +11,8 @@ This service describes a thermostat.
     "targetHeatingThresholdItem": "Itemname-within-OpenHAB",
     "currentHumidityItem": "Itemname-within-OpenHAB",
     "targetHumidityItem": "Itemname-within-OpenHAB",
-    "TargetHeatingCoolingStategItem": "Itemname-within-OpenHAB",
-    "CurrentHeatingCoolingStateItem": "Itemname-within-OpenHAB",
+    "targetHeatingCoolingStategItem": "Itemname-within-OpenHAB",
+    "currentHeatingCoolingStateItem": "Itemname-within-OpenHAB",
     "tempUnit": "Celsius",
     "thermostatMode": "HEAT_COOL_AUTO"
 }
@@ -29,9 +29,9 @@ This service describes a thermostat.
   * Needs to be of type `Number` within openHAB
 * `targetHumidityItem` *(optional)*: The openHAB item representing the target humidity inside the room
   * Needs to be of type `Number` within openHAB
-* `TargetHeatingCoolingStategItem` : The openHAB item representing the thermostat mode
+* `targetHeatingCoolingStategItem` : The openHAB item representing the thermostat mode
   * Needs to be of type `Number`, where OFF = 0;HEAT = 1;COOL = 2;AUTO = 3
-* `CurrentHeatingCoolingStateItem` : The openHAB item showing the current action of your heater or air conditioner (cooling in progress, heating, open radiator valve, etc.). This affects the color of the item in the Home App.
+* `currentHeatingCoolingStateItem` : The openHAB item showing the current action of your heater or air conditioner (cooling in progress, heating, open radiator valve, etc.). This affects the color of the item in the Home App.
   * Needs to be of type `Number`
    * Allowed values: `from 0 to 3`: NACTIVE = 0; IDLE = 1; HEATING = 2; COOLING = 3;
 * `thermostatMode` :
